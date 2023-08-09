@@ -9,12 +9,11 @@
 \setlength{\hintscolumnwidth}{3cm} % grow the width of the column with the dates
 
 \name{Fotis}{Xenakis}
-\title{Software engineer}
+\title{Software Engineer, Systems}
 \email{foxen@windowslive.com}
 \social[linkedin]{fotis-xenakis}
 \social[github]{foxeng}
-% \social[skype]{live:foxen_7} % NOTE: moderncv >= 2.1.0
-\extrainfo{Date of birth: 12/01/1996}
+\born{12 Jan 1996}
 
 
 \begin{document}
@@ -22,45 +21,54 @@
 \makecvtitle
 
 \section{Experience}
-\cventry{11/2020 - 11/2021}{Military service}{Hellenic Navy}{}{}{}
-% TODO: Use \httpslink instead of \link when upgraded to moderncv >= 2.1.0
-\cventry{05/2019 - 10/2020}{Software engineer}{\link[Programize]{https://www.programize.com}}{Athens, Greece}{}{
-    Worked with Silicon Valley startups.
+\cventry{06/2023 - now}{Senior Software Engineer, Systems}{\httpslink[Mobileum]{www.mobileum.com}}{Athens, Greece}{}{}
+\cventry{10/2021 - 05/2023}{Software Engineer, Systems}{\httpslink[Mobileum]{www.mobileum.com}}{Athens, Greece}{}{
+    Engagement \& Experience Business Unit (ex-\httpslink[Niometrics]{www.mobileum.com/about/news-press-releases/mobileum-acquires-niometrics/})
+    \newline
+    Working on the Deep Network Analytics platform, doing high-performance
+    (GB/s) log indexing and aggregation. Heavily performance-focussed:
+    development, observability, troubleshooting in large production deployments.
+    Involved in the entire development lifecycle (requirements, design,
+    implementation, testing, support), member of a highly distributed team.
+    C, Linux.
+}
+\cventry{11/2020 - 10/2021}{Military service}{Hellenic Navy}{}{}{}
+\cventry{05/2019 - 10/2020}{Software Engineer}{\httpslink[Programize]{www.programize.com}}{Athens, Greece}{}{
+    Working with Silicon Valley startups.
     \begin{itemize}
-        \item \link[Aporeto/Palo Alto Networks]{https://www.paloaltonetworks.com/company/press/2019/palo-alto-networks-completes-acquisition-of-aporeto}:
+        \item \httpslink[Aporeto/Palo Alto Networks]{www.paloaltonetworks.com/company/press/2019/palo-alto-networks-completes-acquisition-of-aporeto}:
               Scale testing and benchmarking of a cloud-native distributed
-              firewall and network monitoring solution. Involved automating test
-              scenarios, monitoring and reviewing results. Linux, Docker,
-              Kubernetes, Go, Ansible, Terraform, Bash, GCP.
-        \item \link[Codex]{http://codexhealth.com/}: Back-end development and
+              firewall and network monitoring solution.
+              Linux, Docker, Kubernetes, Go, Ansible, Terraform, Bash, GCP.
+        \item \httpslink[Codex]{www.codex.health}: Back-end development and
               DevOps for a modern platform aimed at healthcare providers.
               Python, Django, GCP.
     \end{itemize}
 }
-\cventry{07/2018 - now}{System administrator (part-time)}{PCLab, \link[ECE NTUA]{https://www.ece.ntua.gr/}}{Athens, Greece}{}{
+\cventry{07/2018 - now}{System Administrator (part-time)}{PCLab, \httpslink[ECE NTUA]{www.ece.ntua.gr/}}{Athens, Greece}{}{
     GNU/Linux deployment and administration of a 128-PC lab for the school's
     students. Implementation of a
-    \link[mechanism]{https://github.com/foxeng/PCLab-Arch} for automated file
+    \httpslink[mechanism]{github.com/foxeng/PCLab-Arch} for automated file
     system resets upon user login. Linux, Ansible, Bash.
 }
-\cventry{01/2020 - 03/2021}{Contributor}{\link[OSv]{https://github.com/cloudius-systems/osv}}{}{}{
-    Mainly around \link[virtio-fs]{https://virtio-fs.gitlab.io}. C++, QEMU/KVM.
+\cventry{01/2020 - 12/2020}{Contributor}{\httpslink[OSv]{github.com/cloudius-systems/osv}}{}{}{
+    Mainly around \httpslink[virtio-fs]{virtio-fs.gitlab.io}. C++, QEMU/KVM.
 }
 
 \section{Education}
-\cventry{2014 - 2020}{Diploma Electrical and Computer Engineering}{\link[National Technical University of Athens]{https://www.ntua.gr/}}{}{\textit{8.58/10}}{
+\cventry{2014 - 2020}{Diploma Electrical and Computer Engineering}{\httpslink[National Technical University of Athens]{www.ntua.gr/}}{}{\textit{8.58/10}}{
     Major: computer software, computing systems. Minor: networking, mathematics.
     \newline
-    \link[Thesis]{https://github.com/foxeng/diploma} title: \textit{Efficient
+    \httpslink[Thesis]{github.com/foxeng/diploma} title: \textit{Efficient
     file sharing between host and unikernel.}
 }
-\cventry{2002 - 2014}{High School Degree}{\link[Experimental School of the University of Athens]{http://pspa.eu}}{}{}{}
+\cventry{2002 - 2014}{High School Degree}{\httpslink[Experimental School of the University of Athens]{pspa.eu}}{}{}{}
 
 \section{Conferences}
-\cvitem{\link[HiPEAC 2020]{https://www.hipeac.net/2020/bologna}}{Attended.}
-\cvitem{\link[HiPEAC CSW Autumn 2019]{https://www.hipeac.net/csw/2019/bilbao}}{
+\cvitem{\httpslink[HiPEAC 2020]{www.hipeac.net/2020/bologna}}{Attended.}
+\cvitem{\httpslink[HiPEAC CSW Autumn 2019]{www.hipeac.net/csw/2019/bilbao}}{
     Attended and qualified in the
-    \link[Student Challenge]{https://www.hipeac.net/news/6905/hipeac-student-challenge-vii-the-tables-are-turned-again},
+    \httpslink[Student Challenge]{www.hipeac.net/news/6905/hipeac-student-challenge-vii-the-tables-are-turned-again},
     proposing an open, modular and affordable approach to home automation.
 }
 
@@ -70,13 +78,15 @@
 \cvitemwithcomment{French}{A2 (basic)}{DELF A2}
 
 \section{Areas of interest}
-\cvitem{}{Operating Systems, Programming Languages, Runtime Systems, Virtualization}
+\cvitem{}{Operating Systems, Programming Languages, Runtime Systems, Performance, Virtualization}
+
+\pagebreak
 
 \section{Technical skills}
 \cvdoubleitem{Programming:}{
     \begin{itemize}
         \item Solid: C, Python, Go, Shell
-        \item Familiar: C++, Java
+        \item Familiar: C++, Java, Rust
     \end{itemize}
 }{}{}
 \cvdoubleitem{Version control:}{Git}{Cloud computing:}{GCP, AWS, Terraform}
